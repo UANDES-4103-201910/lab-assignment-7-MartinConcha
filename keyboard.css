@@ -1,3 +1,80 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+div#kconteiner {
+	width: 1300px;
+}
+
+.keyboard {
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.keyboard__row {
+    display: inline-block;
+    height: 3em;
+    margin: 0.2em;
+}
+
+.keyboard__row--h3 {
+    height: 3.3em;
+}
+
+.keyboard__row > * {
+    position: relative;
+    background: #575757;
+    text-align: center;
+    color: #eee;
+    float: left;
+    border-radius: 0.3em;
+    margin: 0.1em;
+    padding: 0.2em;
+    width: 3.3em;
+    height: 100%;
+    font-weight: bold;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border-bottom-color: #555;
+}
+
+.keyboard__row > div[data-pressed],
+.keyboard__row > div:active {
+    background: #2a2a2a;
+    color: #aaa;
+    position: relative;
+    top: 0.2em;
+    box-shadow: 0 0 0 0.05em black;
+}
+
+.key--w3 {
+    background: #ff8000;
+    width: 4.6em;
+}
+
+.key--w4 {
+    width: 5em;
+}
+
+.key--w5 {
+    background: #ff8000;
+    width: 6.5em;
+}
+
+.key--w6 {
+    background: #ff8000;
+    width: 8.3em;
+}
+
+.key--space {
+    width: 30em;
+}
+
+.key--letter {
+    line-height: 2.8em;
+}
+
+.keyboard > .keyboard__row {
+    text-align: center;
+}
