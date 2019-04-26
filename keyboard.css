@@ -2,7 +2,9 @@
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
 div#kconteiner {
-	width: 1300px;
+	margin: 100px auto;
+	width: 1000px;
+	height: 1000px;
 }
 
 .keyboard {
@@ -14,11 +16,7 @@ div#kconteiner {
 .keyboard__row {
     display: inline-block;
     height: 3em;
-    margin: 0.2em;
-}
-
-.keyboard__row--h3 {
-    height: 3.3em;
+    margin: 1px;
 }
 
 .keyboard__row > * {
@@ -35,7 +33,6 @@ div#kconteiner {
     font-weight: bold;
     box-sizing: border-box;
     cursor: pointer;
-    -webkit-user-select: none;
     border-bottom-color: #555;
 }
 
@@ -48,30 +45,39 @@ div#kconteiner {
     box-shadow: 0 0 0 0.05em black;
 }
 
-.key--w3 {
+.accept {
     background: #ff8000;
     width: 4.6em;
 }
 
-.key--w4 {
+.cancel {
+    background: #ff8000;
+    width: 4.6em;
+}
+
+.bksp {
     width: 5em;
 }
 
-.key--w5 {
+.tab {
+    width: 5em;
+}
+
+.enter {
     background: #ff8000;
     width: 6.5em;
 }
 
-.key--w6 {
+.shift {
     background: #ff8000;
     width: 8.3em;
 }
 
-.key--space {
+.space {
     width: 30em;
 }
 
-.key--letter {
+.letter {
     line-height: 2.8em;
 }
 
