@@ -7,6 +7,10 @@ div#kconteiner {
 	height: 1000px;
 }
 
+body{
+  background-color: #bab8b6; 
+}
+
 .keyboard {
     text-align: center;
     font-size: 14px;
@@ -21,9 +25,10 @@ div#kconteiner {
 
 .keyboard__row > * {
     position: relative;
-    background: #575757;
+    background: #000000;
     text-align: center;
     color: #eee;
+    border: 1px solid #e61010;
     float: left;
     border-radius: 0.3em;
     margin: 0.1em;
@@ -46,12 +51,12 @@ div#kconteiner {
 }
 
 .accept {
-    background: #ff8000;
+    background: #e61010;
     width: 4.6em;
 }
 
 .cancel {
-    background: #ff8000;
+    background: #e61010;
     width: 4.6em;
 }
 
@@ -64,12 +69,12 @@ div#kconteiner {
 }
 
 .enter {
-    background: #ff8000;
+    background: #e61010;
     width: 6.5em;
 }
 
 .shift {
-    background: #ff8000;
+    background: #e61010;
     width: 8.3em;
 }
 
